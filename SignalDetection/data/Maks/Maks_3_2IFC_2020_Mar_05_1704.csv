@@ -1,0 +1,6 @@
+﻿Task,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,signal_intensity,constant Value,response,Subject_Action,Stimulus_Present,time_response,signal_on_stimuluspos1,signal_on_stimuluspos2,stimulus_name_pos1,stimulus_name_pos2,random_intensity,session,participant,date,expName,
+2IFC,0,0,0,0,15.0,-1,c,o,r,0.584250299987616,False,True,stimulusMaks_2IFC_2020_Mar_05_1704_1,stimulusMaks_2IFC_2020_Mar_05_1704_2,False,3,Maks,2020_Mar_05_1704,2IFC,
+2IFC,1,0,1,0,15.0,-1,c,o,r,0.5673376999911852,False,True,stimulusMaks_2IFC_2020_Mar_05_1704_3,stimulusMaks_2IFC_2020_Mar_05_1704_4,False,3,Maks,2020_Mar_05_1704,2IFC,
+2IFC,2,0,2,0,15.0,-1,c,o,r,0.4339914000011049,False,True,stimulusMaks_2IFC_2020_Mar_05_1704_5,stimulusMaks_2IFC_2020_Mar_05_1704_6,False,3,Maks,2020_Mar_05_1704,2IFC,
+2IFC,3,0,3,0,15.0,-1,c,o,r,0.2506368000176735,False,True,stimulusMaks_2IFC_2020_Mar_05_1704_7,stimulusMaks_2IFC_2020_Mar_05_1704_8,False,3,Maks,2020_Mar_05_1704,2IFC,
+2IFC,4,0,4,0,15.0,-1,c,o,r,0.28413159999763593,True,False,stimulusMaks_2IFC_2020_Mar_05_1704_9,stimulusMaks_2IFC_2020_Mar_05_1704_10,False,3,Maks,2020_Mar_05_1704,2IFC,
