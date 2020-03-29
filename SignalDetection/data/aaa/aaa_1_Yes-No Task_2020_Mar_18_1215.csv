@@ -1,6 +1,0 @@
-﻿Task,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,signal_intensity,constant Value,response,Subject_Action,Stimulus_Present,time_response,signal_on_stimuluspos1,signal_on_stimuluspos2,stimulus_name_pos1,stimulus_name_pos2,random_intensity,session,participant,date,expName,
-Yes-No Task,0,0,0,0,11.0,-1,Correct Rejection,0,0,0.6175524999853224,False,-1,stimulus_aaa_Yes-No Task_2020_Mar_18_1215_1,-1,False,1,aaa,2020_Mar_18_1215,Yes-No Task,
-Yes-No Task,1,0,1,0,11.0,-1,Correct Rejection,0,0,0.43434709997382015,False,-1,stimulus_aaa_Yes-No Task_2020_Mar_18_1215_2,-1,False,1,aaa,2020_Mar_18_1215,Yes-No Task,
-Yes-No Task,2,0,2,0,11.0,-1,Miss,0,1,0.3207051999634132,True,-1,stimulus_aaa_Yes-No Task_2020_Mar_18_1215_3,-1,False,1,aaa,2020_Mar_18_1215,Yes-No Task,
-Yes-No Task,3,0,3,0,11.0,-1,False Alarm,1,0,0.23379610001575202,False,-1,stimulus_aaa_Yes-No Task_2020_Mar_18_1215_4,-1,False,1,aaa,2020_Mar_18_1215,Yes-No Task,
-Yes-No Task,4,0,4,0,11.0,-1,Correct Rejection,0,0,0.4201216999790631,False,-1,stimulus_aaa_Yes-No Task_2020_Mar_18_1215_5,-1,False,1,aaa,2020_Mar_18_1215,Yes-No Task,
