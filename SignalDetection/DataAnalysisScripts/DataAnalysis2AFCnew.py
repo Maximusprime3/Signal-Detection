@@ -7,9 +7,10 @@ import psignifit as pn
 #2AFCnew
 #Get the data
 path=r"C:\Users\Max\PycharmProjects\SignalDetection\data\2AFCnew/*.csv"
-raw_data = [pd.read_csv(f) for f in sorted(glob.glob(path))]
-raw_data = raw_data[2]
-preprocessed_data = []
+raw_data = [pd.read_csv(f) for f in sorted(glob.glob(path))] #raw_data gets all sessions
+raw_data = raw_data[2]  # select the sesseion to be analyzed
+
+preprocessed_data = [] # split the session into blocks for each signal intensity
 for sig, d in raw_data.groupby('signal_intensity'):
     preprocessed_data.append(d)
 
@@ -18,9 +19,10 @@ print('Durchgänge: ',len( preprocessed_data))
 #create empty data frame the right format for psignifit
 data_first_answer = np.ndarray(shape=(len( preprocessed_data), 3), dtype=float)
 data_second_answer = np.ndarray(shape=(len( preprocessed_data), 3), dtype=float)
-i = 0
+
 #go through every trial block (signal intensities)
 #fist answer
+i = 0
 for d in  preprocessed_data:
     #excluede test trials
     d = d[5:]
@@ -69,7 +71,7 @@ for d in  preprocessed_data:
 
 
 #psignifit options
-options =dict()# initialize as an empty struct
+options =dict()# initialize as an empty dict
 options['sigmoidName'] = 'norm'
 options['expType'] = '2AFC'
 #compute psignifit result
