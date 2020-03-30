@@ -1028,7 +1028,7 @@ for trial_blocks in range (variables.trial_blocks):
                         answer2AFC = 0
                         i = i + 1
                         time_response= - 1
-                        button_pressed = -1
+                        button_pressed = 0
                         blocked = False
                         draw_component.setAutoDraw(False)
     

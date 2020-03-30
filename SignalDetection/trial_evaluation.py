@@ -122,11 +122,12 @@ class TrialEvaluation:
     def response_name(self, argument):
         print(3, argument)
 
-        self.subject_response = 0
-        self.stimulus_present = 0
+
         if argument == 0:
             self.answer = 'No Answer'
-
+            self.subject_response = 0
+            self.stimulus_present = 0
+            
         if argument == 1:
             self.answer = "Hit";
             self.subject_response = 1
